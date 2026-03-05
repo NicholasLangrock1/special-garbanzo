@@ -1,0 +1,9 @@
+# CSCI305-lab2
+
+My name: Nicholas Langrock
+
+About this project: Implementing sorting algorithms. The goal of this project is to implement insertion, quick and merge sort, as well as test them not only to see if 
+they sort arrays properly, but test their runtime complexity.
+
+Insertion sort to my surprise seemed to behave the best, followed by quick sort then mergesort. My input only worked for data ranging from 100 to 20000, so for larger data, mergesort and quicksort probably would fair better than insertionsort.
+In the repository, I have my csv file and plotted data provided 

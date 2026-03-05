@@ -1,0 +1,7 @@
+Name: Nicholas Langrock
+
+Project decription: we used different methods for HashTables, including a search method for a specified key, an insertion method for key value pairs, and a removal method for a specified key. 
+
+The insertion method has O(1) constant time normally, but the reason why that didn't pan out in testing is due to the amount of time it takes to rebalance. The removal methods and search methods worse case is O(n), and that can be demonstrated in the ocasional spikes on the graph, however it's best case/average case is O(1), which is shown in how little it deviates on the graph.
+Collision handling could have been another factor potentially bottlenecking the performance of the insertion method, and this is in large part due to the longer probing it has to do as there are more and more nonempty elements to probe through.
+The resising also considerably affacted the insert methods runtime, since that scales linearly rather than constant. 
